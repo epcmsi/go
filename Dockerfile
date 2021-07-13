@@ -1,8 +1,8 @@
 FROM centos:7
 
-ARG VERSION="1.13.1"
+ARG VERSION="1.16.6"
 LABEL build_version="Go version: ${VERSION}"
-LABEL maintainer="Mattia Simonetti <msi@espros.com>"
+LABEL maintainer="Thomas Willi <twi@espros.com>"
 
 RUN \
     echo "**** install dependencies ****" && \
