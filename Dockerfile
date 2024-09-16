@@ -1,6 +1,6 @@
 FROM centos:7
 
-ARG VERSION="1.16.6"
+ARG VERSION="1.23.0"
 LABEL build_version="Go version: ${VERSION}"
 LABEL maintainer="Thomas Willi <twi@espros.com>"
 
